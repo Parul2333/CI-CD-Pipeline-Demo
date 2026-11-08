@@ -1,4 +1,4 @@
-const {add,subtract} = require("../src/app");
+const {add,subtract,multiply} = require("../src/app");
 
 
 test("add 2 numbers",()=>{
@@ -8,3 +8,7 @@ test("add 2 numbers",()=>{
 test("subtract 2 numbers",()=>{
     expect(subtract(5,3)).toBe(2);
 });
+
+test("mulitply 2 numbers",()=>{
+    expect(multiply(2,5)).toBe(10);
+})
